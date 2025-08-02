@@ -1,0 +1,129 @@
+---
+permalink: /test/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bahman Abolhassani</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: white;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0073b1;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      margin-top: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    img.profile {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0073b1;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <center>
+      <img src="bahman.png" alt="Bahman Abolhassani" class="profile">
+      <h1>Bahman Abolhassani</h1>
+      <p>Postdoctoral Researcher · Aspiring AI Researcher · Engineer</p>
+      <div class="links">
+        <a href="https://scholar.google.com/citations?user=f1oOQvQAAAAJ&hl=en" target="_blank">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/bahmanabolhassani" target="_blank">LinkedIn</a>
+        <a href="https://github.com/bahmanabl" target="_blank">GitHub</a>
+      </div>
+    </center>
+  </div>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a postdoctoral researcher with expertise in wireless systems, reinforcement learning, and AI. I enjoy building practical systems grounded in strong theoretical foundations and am currently exploring ways to accelerate real-time decision-making using ML and GPU-based architectures.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Ultrafast Scheduler for 5G/NextG:</strong> A GPU-accelerated scheduler for real-time radio networks.</li>
+        <li><strong>RL-based URLLC/eMBB Puncturing:</strong> Reinforcement learning for traffic multiplexing in 5G systems.</li>
+        <li><strong>Protein Design with AI:</strong> Generating candidate proteins for Alzheimer's research using diffusion models and AlphaFold.</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li><strong>Learning-based Spectrum Scheduling in NextG Networks</strong> – IEEE TWC, 2024</li>
+        <li><strong>Multi-Agent RL for Anti-Jamming</strong> – MILCOM 2025 (to appear)</li>
+      </ul>
+    </section>
+
+    <section id="blog">
+      <h2>Blog</h2>
+      <p>Coming soon! I'll be sharing thoughts on AI research, engineering workflows, and lessons from books I read.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <p>You can reach me at <a href="mailto:your@email.com">your@email.com</a> or message me on <a href="https://www.linkedin.com/in/bahmanabolhassani">LinkedIn</a>.</p>
+    </section>
+  </div>
+</body>
+</html>
